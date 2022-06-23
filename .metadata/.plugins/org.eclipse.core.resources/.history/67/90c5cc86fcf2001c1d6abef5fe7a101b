@@ -1,0 +1,16 @@
+package Packages;
+
+public class ContaCorrente extends Conta {
+
+	@Override
+	public void imprimirExtrato() {
+		System.out.println("===Extrato conta Corrente===");
+		System.out.println(String.format("Agencia: %d",super.agencia));
+		System.out.println("===Extrato conta Corrente===");
+		System.out.println(String.format("Número: %d",super.numero));
+		System.out.println("===Extrato conta Corrente===");
+		System.out.println(String.format("Saldo: %d",super.saldo));
+	}
+	
+	
+}

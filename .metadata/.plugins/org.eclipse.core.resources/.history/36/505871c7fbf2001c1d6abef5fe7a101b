@@ -1,0 +1,12 @@
+package Packages;
+
+public interface iConta {
+	void sacar(double valor);
+	
+	void depoistar(double valor);
+	
+	void transferir(double valor ,Conta contaDestino);
+
+
+	
+}

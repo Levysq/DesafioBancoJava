@@ -1,0 +1,16 @@
+package Packages;
+
+public interface iConta {
+	public void sacar();
+	
+	public void depoistar();
+	
+	public void transferir();
+
+	public int getAgencia();
+
+	public int getNumero();
+
+	public double getSaldo();
+	
+}

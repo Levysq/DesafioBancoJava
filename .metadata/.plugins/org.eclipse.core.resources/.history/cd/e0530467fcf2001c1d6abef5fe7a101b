@@ -1,0 +1,6 @@
+package Packages;
+
+public class ContaCorrente extends Conta {
+	
+	
+}
